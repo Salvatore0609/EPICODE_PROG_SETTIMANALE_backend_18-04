@@ -1,0 +1,8 @@
+package it.epicode.Gestione_viaggi_aziendali.viaggi;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class ViaggioResponse {
+
+}

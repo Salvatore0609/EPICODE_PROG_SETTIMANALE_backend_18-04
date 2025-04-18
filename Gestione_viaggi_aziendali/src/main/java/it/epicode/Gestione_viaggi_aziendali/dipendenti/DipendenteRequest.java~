@@ -1,0 +1,8 @@
+package it.epicode.Gestione_viaggi_aziendali.dipendenti;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class DipendenteRequest {
+
+}

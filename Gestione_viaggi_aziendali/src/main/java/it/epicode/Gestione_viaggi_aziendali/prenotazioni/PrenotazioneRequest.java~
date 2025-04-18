@@ -1,0 +1,8 @@
+package it.epicode.Gestione_viaggi_aziendali.prenotazioni;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class PrenotazioneRequest {
+
+}

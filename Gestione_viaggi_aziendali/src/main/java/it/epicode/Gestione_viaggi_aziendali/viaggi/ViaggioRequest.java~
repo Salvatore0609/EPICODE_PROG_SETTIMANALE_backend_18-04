@@ -1,0 +1,12 @@
+package it.epicode.Gestione_viaggi_aziendali.viaggi;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class ViaggioRequest {
+
+}

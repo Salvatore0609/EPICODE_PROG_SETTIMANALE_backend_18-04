@@ -1,0 +1,21 @@
+package it.epicode.Gestione_viaggi_aziendali.prenotazioni;
+
+@RestController
+@RequestMapping("/api/api")
+@RequiredArgsConstructor
+public class PrenotazioneController {
+    private final PrenotazioneController;
+
+    @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
+
+
+    @GetMapping
+
+    @PutMapping("/{id}")
+
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+
+    @PatchMapping("/{id}/stato")
+}

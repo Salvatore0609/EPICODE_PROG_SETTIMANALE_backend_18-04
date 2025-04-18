@@ -1,0 +1,20 @@
+package it.epicode.Gestione_viaggi_aziendali.prenotazioni;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import jakarta.persistence.UniqueConstraint;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Table(
+        name = "prenotazione",
+        uniqueConstraints = @UniqueConstraint(columnNames = {"dipendente_id","data_richiesta"})
+)
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Prenotazione {
+    
+}
